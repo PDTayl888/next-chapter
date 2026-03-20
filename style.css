@@ -4,3 +4,48 @@ body {
   font-size: 2em;
   color: #000;
 }
+
+div.calculator {
+  min-width: 500px;
+  max-width: 700px;
+  background: lightgray;
+  width: 25vw;
+  height: 75vh;
+  border-radius: 3px;
+  border: 3px solid whitesmoke;
+  display: block;
+  box-shadow: 10px 20px grey;
+}
+
+div.button-wrap {
+  display: flex;
+  margin: 0.35em;
+}
+
+div.row-wrap {
+  display: inline-block;
+}
+
+div.display {
+  background: #fff;
+  overflow-x: scroll;
+  height: 15vh;
+  width: 95%;
+  border: 2px solid gray;
+}
+
+.button {
+  width: 3.5vh;
+  height: 2.5vw;
+  border-radius: 3px;
+  background: black;
+  display: inline-flex;
+  margin: 0.25em;
+  padding: 0.5em;
+  color: whitesmoke;
+  cursor: pointer; /* Added for better UX */
+}
+
+.inside {
+  text-align: center;
+}
